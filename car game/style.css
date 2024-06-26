@@ -152,3 +152,52 @@ body{
         transform: translateY(-4px);
     }
 }
+.control
+{
+    position: relative;
+    top: 75vh;
+    left: 90vw;
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    background-color: rgb(97, 96, 96);
+    border-radius: 50%;
+    overflow: hidden;
+    display: none;
+}
+.control>.up
+{
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    background-color: gray;
+    color: rgb(0, 0, 0);
+}
+.control>.horizontal
+{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    position: absolute;
+    top:35%;
+    
+}
+.control>.horizontal>.right
+{
+    background-color: gray;
+    color: black;
+}
+.control>.horizontal>.left
+{
+    background-color: gray;
+    color: black;
+}
+
+.control>.down
+{
+    position: absolute;
+    top:70%;
+    left: 35%;
+    background-color: gray;
+    color: black;
+}
