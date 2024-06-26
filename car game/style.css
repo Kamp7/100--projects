@@ -68,6 +68,7 @@ body{
     background-size:contain;
     animation: bgmove linear 10s infinite;
     display: none;
+    object-fit: cover;
     
 }
 .track
@@ -79,6 +80,7 @@ body{
     top:100%;
     animation: carmove linear 6s infinite ;
     display: none;
+    object-fit: cover;
 }
 .car
 {
