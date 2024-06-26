@@ -32,6 +32,7 @@ pauseButton.addEventListener('click', () => {
     car.style.display = "none";
     audio.pause();
     pauseButton.style.display = "none";
+    control.style.display="none";
 });
 const vh = window.innerHeight;
 const vw=window.innerWidth;

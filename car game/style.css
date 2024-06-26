@@ -62,7 +62,7 @@ body{
     position: absolute;
     top:0;
     width: 800vw;
-    height: 70%;
+    height: 71%;
     background-repeat: repeat-x;
     background-image: url(trees.png);
     background-size:contain;
@@ -75,7 +75,7 @@ body{
 {
     background-image: url(track.png);
     width: 800vw;
-    height: 30%;
+    height: 29%;
     position: absolute;
     top:70%;
     animation: carmove linear 6s infinite ;
