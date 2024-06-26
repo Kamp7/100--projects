@@ -164,6 +164,7 @@ body{
     border-radius: 50%;
     overflow: hidden;
     display: none;
+    cursor: context-menu;
 }
 .control>.up
 {
@@ -172,6 +173,7 @@ body{
     left: 35%;
     background-color: gray;
     color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 .control>.horizontal
 {
@@ -186,11 +188,13 @@ body{
 {
     background-color: gray;
     color: black;
+    cursor: pointer;
 }
 .control>.horizontal>.left
 {
     background-color: gray;
     color: black;
+    cursor: pointer;
 }
 
 .control>.down
@@ -200,4 +204,5 @@ body{
     left: 35%;
     background-color: gray;
     color: black;
+    cursor: pointer;
 }
