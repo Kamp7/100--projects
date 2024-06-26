@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    overflow-x: hidden;
+    overflow: hidden;
     background:url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +60,7 @@ body{
 }
 .trees{
     position: absolute;
-    bottom:0%;
+    top:0;
     width: 800vw;
     height: 70%;
     background-repeat: repeat-x;
@@ -75,9 +75,9 @@ body{
 {
     background-image: url(track.png);
     width: 800vw;
-    height: 7rem;
+    height: 30%;
     position: absolute;
-    top:100%;
+    top:70%;
     animation: carmove linear 6s infinite ;
     display: none;
     object-fit: cover;
@@ -90,7 +90,7 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    top: 96vh;
+    top: 72%;
     animation: carshake linear 2s infinite;
     display: none;
 }
