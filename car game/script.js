@@ -36,10 +36,14 @@ pauseButton.addEventListener('click', () => {
 });
 const vh = window.innerHeight;
 const vw=window.innerWidth;
+let screenh= window.screen.height;
 document.addEventListener('keydown', () => {
     if (event.code === 'ArrowDown') {
-        
+        console.log(((car.offsetTop)/screenh)*100);
+        if(((car.offsetTop)/screenh)*100<=80)
+            {
         car.style.top = ((car.offsetTop / vh) * 100) + 1 + 'vh';
+            }
     }
 });
 let movedown=document.querySelector('.down');
@@ -50,8 +54,11 @@ movedown.addEventListener('click', () => {
 });
 document.addEventListener('keydown', () => {
     if (event.code === 'ArrowUp') {
-        
+        console.log(((car.offsetTop)/screenh)*100);
+        if(((car.offsetTop)/screenh)*100>=62)
+            {
         car.style.top = ((car.offsetTop / vh) * 100) - 1 + 'vh';
+            }
     }
 });
 let moveup=document.querySelector('.up');
